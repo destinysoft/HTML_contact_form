@@ -1,0 +1,180 @@
+body{
+    background-image: url(images/land.jpeg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+
+}
+
+
+.fdiv{
+ background-color: white;
+ padding: 10px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.fimg{
+    height: 15px;
+    width: 15px;
+}
+
+.simg{
+    height: 15px;
+    width: 15px;
+    margin-left: 3px;
+}
+
+.dot{
+    border-radius: 50%;
+    height: 10px;
+    width:  10px;
+    display: inline-block;
+    background-color: rgb(182, 49, 49);
+
+
+}
+
+.sdot{
+    border-radius: 50%;
+    height: 10px;
+    width:  10px;
+    display: inline-block;
+    background-color: yellow;
+
+
+}
+
+
+.tdot{
+    border-radius: 50%;
+    height: 10px;
+    width:  10px;
+    display: inline-block;
+    background-color: green;
+}
+
+.fclassholder {
+    margin-left: 50px;
+    border-radius: 2px;
+    border-color: white;
+}
+
+
+.fholder{
+    border-radius: 2px;
+    border-color: white;
+}
+
+.eholder {
+    margin-left: 25px;
+    border-radius: 2px;
+    border-color: white;
+}
+
+.pclassholder {
+    margin-left: 16px;
+    border-radius: 2px;
+    border-color: white;
+}
+
+
+.pholder {
+    border-radius: 2px;
+    border-color: white;
+}
+
+.selectholder {
+    margin-left: 5px;
+    width: 20%;
+    height: 30px;
+}
+
+
+.textholder {
+    margin-left: 55px;
+    width: 40%;
+    height: 70px;
+    border-radius: 2px;
+}
+
+
+.container{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    display:inline-block;
+    height: 54px;
+    width: 200px;
+    padding: 7px;
+    margin-left: 35px;
+
+}
+
+.e{
+    border: 1px solid white;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+}
+
+.submit{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10 30px;
+    color: white;
+    border-radius: 7px;
+    background-color: transparent;
+    border-color: white;
+}
+
+
+.re{
+    font-size: 12px;
+    position: relative;
+}
+
+
+a:link {
+    font-size: 12px;
+}
+
+.robo{
+    justify-content: end;
+}
+
+
+@media screen and (max-width: 764px) {
+    
+
+    .fclassholder {
+        border-radius: 2px;
+        border-color: white;
+        width: 80px;
+    }
+    
+    
+    .fholder{
+        border-radius: 2px;
+        border-color: white;
+        width: 80px;
+    }
+
+    .pholder {
+    display: none;
+    }
+
+    .submit{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 10 30px;
+        color: lightsteelblue;
+        border-radius: 7px;
+        background-color: transparent;
+        border-color: lightsteelblue;
+    }
+
+
+}
